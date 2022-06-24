@@ -195,4 +195,13 @@
   .hero-text {
     flex-direction: column;
   }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .hero-img-box::before {
+    width: 85%;
+    padding-bottom: 125%;
+  }
 }

@@ -185,3 +185,8 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(123, 104, 215, 0.5);
+}

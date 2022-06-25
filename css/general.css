@@ -86,16 +86,12 @@ body {
 }
 
 .heading-primary {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 5.2rem;
+  line-height: 1.1;
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
-}
-
-.heading-primary {
-  font-family: "Berkshire Swash";
-
-  font-size: 5.2rem;
-  line-height: 1.1;
   margin-bottom: 3.2rem;
 }
 

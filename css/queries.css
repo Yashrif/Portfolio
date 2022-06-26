@@ -43,13 +43,13 @@
   }
 
   .hero-img {
-    width: 70%;
+    width: 65%;
   }
 
   .hero-img-box::before {
     content: "";
-    width: 80%;
-    padding-bottom: 110%;
+    width: 75%;
+    padding-bottom: 98%;
   }
 }
 
@@ -103,12 +103,12 @@
   }
 
   .hero-img {
-    width: 55%;
+    width: 40%;
   }
 
   .hero-img-box::before {
-    width: 60%;
-    padding-bottom: 85%;
+    width: 50%;
+    padding-bottom: 62%;
   }
 
 
@@ -134,12 +134,12 @@
   }
 
   .hero-img {
-    width: 70%;
+    width: 50%;
   }
 
   .hero-img-box::before {
-    width: 80%;
-    padding-bottom: 105%;
+    width: 60%;
+    padding-bottom: 75%;
   }
 }
 
@@ -155,11 +155,11 @@
   }
 
   .hero-img {
-    width: 80%;
+    width: 60%;
   }
 
   .hero-img-box::before {
-    width: 85%;
-    padding-bottom: 125%;
+    width: 65%;
+    padding-bottom: 90%;
   }
 }

@@ -54,7 +54,7 @@
 
 .logo:hover,
 .logo:active {
-  transition-delay: 0.65s;
+  transition-delay: 1.25s;
   color: #caae54;
 }
 

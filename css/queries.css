@@ -134,12 +134,12 @@
   }
 
   .hero-img {
-    width: 46.875%;
+    width: 60%;
   }
 
   .hero-img-box::before {
-    width: 55%;
-    padding-bottom: 75%;
+    width: 65%;
+    padding-bottom: 90%;
   }
 }
 
@@ -152,14 +152,5 @@
 
   .hero-text {
     flex-direction: column;
-  }
-
-  .hero-img {
-    width: 60%;
-  }
-
-  .hero-img-box::before {
-    width: 65%;
-    padding-bottom: 90%;
   }
 }

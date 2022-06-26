@@ -27,7 +27,7 @@
   color: #333;
   padding: 0.8rem;
 
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s linear;
 }
 
 .main-nav-list:active,
@@ -78,25 +78,29 @@
   }
 }
 
-/* @keyframes circular-rotation--after--link {
+@keyframes circular-rotation--after--link {
   0% {
     border-bottom: .2rem solid #f8f7f1;
   }
+
   20% {
     border-bottom: .2rem solid #f8f7f1;
   }
+
   40% {
     border-bottom: .2rem solid #f8f7f1;
   }
-  70% {
-    border-bottom: .2rem solid #333;
-    transform: rotate(60deg);
+
+  80% {
+    border-bottom: .2rem solid #f8f7f1;
+    transform: rotate(75deg);
   }
+
   100% {
     border-bottom: .2rem solid #333;
     transform: rotate(0deg);
   }
-} */
+}
 
 @keyframes circular-rotation--after--hover {
   0% {
@@ -111,7 +115,7 @@
     border-bottom: 0.2rem solid #f8f7f1;
   }
 
-  60% {
+  80% {
     border-bottom: 0.2rem solid #f8f7f1;
     transform: rotate(-75deg);
   }
@@ -129,12 +133,15 @@
   height: 100%;
   left: 0;
   top: 0;
+  z-index: 5;
 
   border-top: 0.2rem solid #333;
   border-radius: 9rem;
 
   animation-name: circular-rotation--before--link;
-  animation-duration: 1s;
+  animation-duration: .75s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-out;
 
   transition: all 0.3s linear;
 }
@@ -150,23 +157,27 @@
   border-bottom: 0.2rem solid #333;
   border-radius: 9rem;
 
-  animation-name: circular-rotation--before--hover;
-  /* animation-name: circular-rotation--after--link; */
-  animation-duration: 1s;
+  /* animation-name: circular-rotation--before--hover; */
+  animation-name: circular-rotation--after--link;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
 
   transition: all 0.3s linear;
 }
 
 .logo:hover.logo::before {
   animation-name: circular-rotation--before--hover;
-  animation-duration: 1s;
+  animation-duration: .75s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-out;
 
   border-top: 0.2rem solid #caae54;
 }
 
 .logo:hover.logo::after {
   animation-name: circular-rotation--after--hover;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
 
   border-bottom: 0.2rem solid #caae54;
 }

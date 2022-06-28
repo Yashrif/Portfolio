@@ -401,7 +401,7 @@
     transform: translate(-150%, -25%);
   }
 
-  50% {
+  40% {
     transform: translate(16%, -25%);
   }
 
@@ -423,7 +423,7 @@
   transform: translate(-8%, -25%);
 
   animation-name: hero-img-overview-animation;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
 
   z-index: 5;
